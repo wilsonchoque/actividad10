@@ -1,0 +1,17 @@
+.container{
+    margin: 30px auto;
+    
+}
+
+.caja{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3b3b44;
+}
+
+h1{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+}

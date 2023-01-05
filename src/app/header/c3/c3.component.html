@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body"  style="height: 300px;">
+            <div class=" p-1 mb-2">
+                <input type="text" class="form-control" [(ngModel)]="tarea"  placeholder="Ingrese nombre tarea">
+              </div>
+              <div class="p-1 mb-4">
+                <textarea class="form-control" [(ngModel)]="descripcion" placeholder="Ingrese descripcion"  rows="4"></textarea>
+              </div>
+          <button class="btn btn-primary d-block mx-auto px-5" (click)="enviar()"  >Guardar</button>
+        </div>
+      </div>
+</div>

@@ -1,0 +1,15 @@
+.container{
+    margin: 30px auto;
+    
+}
+
+.navbar{
+    border-radius: 10px;
+    background-color: #3b3b44;
+}
+
+a{
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+}
